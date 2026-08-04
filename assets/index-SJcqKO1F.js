@@ -96,7 +96,7 @@ Error generating stack: `+e.message+`
                 hover:bg-white
                 hover:text-black
                 hover:scale-105
-              `,children:e},e))})]})]}),(0,w.jsx)(yu.button,{layout:!0,onClick:()=>window.open({resumePdf:xu}),className:`
+              `,children:e},e))})]})]}),(0,w.jsx)(yu.button,{layout:!0,onClick:()=>window.open(xu,`_blank`),className:`
       rounded-full
       bg-white
       text-black
