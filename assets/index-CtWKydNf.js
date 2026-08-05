@@ -107,7 +107,7 @@ Error generating stack: `+e.message+`
       hover:scale-105
 
       ${e?`px-5 py-2 text-sm`:`px-8 py-3.5 mt-10`}
-    `,children:`View Resume`})]})})}function Cu(){return(0,w.jsxs)(`section`,{id:`about`,className:`py-20 max-w-5xl mx-auto px-5`,children:[(0,w.jsx)(`h2`,{className:`text-4xl font-bold mb-10 text-white-400`,children:`About Me`}),(0,w.jsx)(`p`,{className:`text-gray-300 leading-8`,children:`I am a Computer Science graduate passionate about Artificial Intelligence, Machine Learning, Full Stack Development, and solving real world problems through technology.  I am a Computer Science graduate passionate about Artificial Intelligence, Machine Learning, Full Stack Development, and solving real world problems through technology.  I am a Computer Science graduate passionate about Artificial Intelligence, Machine Learning, Full Stack Development, and solving real world problems through technology.  I am a Computer Science graduate passionate about Artificial Intelligence, Machine Learning, Full Stack Development, and solving real world problems through technology.  I am a Computer Science graduate passionate about Artificial Intelligence, Machine Learning, Full Stack Development, and solving real world problems through technology.  I am a Computer Science graduate passionate about Artificial Intelligence, Machine Learning, Full Stack Development, and solving real world problems through technology.  I am a Computer Science graduate passionate about Artificial Intelligence, Machine Learning, Full Stack Development, and solving real world problems through technology.`})]})}function wu(){return(0,w.jsxs)(`section`,{id:`skills`,className:`max-w-6xl mx-auto px-6 py-2`,children:[(0,w.jsx)(`h2`,{className:`text-5xl font tracking-tight text-white mb-12`,children:`Skills`}),(0,w.jsx)(`div`,{className:`grid md:grid-cols-2 gap-8`,children:[{title:`Languages`,skills:[`Python`,`JavaScript`,`TypeScript`,`Java`,`PHP`,`C#`,`Dart`,`SQL`]},{title:`Frontend`,skills:[`React`,`Flutter`,`HTML`,`CSS`,`Tailwind`]},{title:`Backend`,skills:[`.NET`,`REST APIs`,`GraphQL`,`Firebase`,`Supabase`,`Docker`,`AWS`,`Google Cloud`,`Azure`,`Vercel`,`Render`]},{title:`AI / ML`,skills:[`TensorFlow`,`PyTorch`,`Scikit-learn`,`OpenCV`],skills:[`YOLOv5`,`Object Detection`,`Person Detection Pipeline`,`Anomaly Detection`,`LangChain`,`OpenAI API`,`Anthropic API`,`Prompt Engineering`,`RAG`,`Scikit-learn`,`TensorFlow`,`NumPy`,`Matplotlib`]},{title:`Databases`,skills:[`MongoDB`,`PostgreSQL`,`SQL Server`,`Firestore`,`Realtime Database`,`Firebase Storage`,`Pinecone`,`ChromaDB`]},{title:`Tools`,skills:[`Visual Studio`,`Git`,`GitHub`,`GitLab`,`GitHub Actions`,`Linux`,`Android`,`IoT`,`Selenium`,`CI/CD`,`Agile`,`Scrum`,`MVC`,`MVVM`,`System Design`,`Object-Oriented Programming`,`Data Structures`,`API Security`,`Database Administration`,`QA`]}].map((e,t)=>(0,w.jsxs)(`div`,{className:`
+    `,children:`View Resume`})]})})}function Cu(){return(0,w.jsxs)(`section`,{id:`about`,className:`py-20 max-w-5xl mx-auto px-5`,children:[(0,w.jsx)(`h2`,{className:`text-4xl font-bold mb-10 text-white-400`,children:`About Me`}),(0,w.jsx)(`p`,{className:`text-gray-300 leading-8`,children:`I'm a Master of Science student in Computer Science with a passion for Artificial Intelligence, Machine Learning, and Software Development. I'm driven by the challenge of building intelligent, scalable solutions that solve real-world problems and create meaningful impact. Throughout my academic journey, I've gained hands-on experience through coursework and collaborative as well as individual projects, strengthening my skills in programming, algorithms, data-driven systems, and software design. I enjoy exploring new technologies, tackling complex challenges, and continuously expanding my knowledge as the field evolves. I'm particularly interested in developing AI-powered applications, designing scalable software systems, and leveraging data to build smarter solutions. I believe in combining technical expertise with curiosity and creativity to create software that is both efficient and user-focused. I'm currently seeking opportunities to contribute to innovative engineering teams where I can apply my skills in Software Development, Artificial Intelligence, Machine Learning, and Data Analysis while continuing to grow as a developer, engineer, and lifelong learner.`})]})}function wu(){return(0,w.jsxs)(`section`,{id:`skills`,className:`max-w-6xl mx-auto px-6 py-2`,children:[(0,w.jsx)(`h2`,{className:`text-5xl font tracking-tight text-white mb-12`,children:`Skills`}),(0,w.jsx)(`div`,{className:`grid md:grid-cols-2 gap-8`,children:[{title:`Languages`,skills:[`Python`,`JavaScript`,`TypeScript`,`Java`,`PHP`,`C#`,`Dart`,`SQL`]},{title:`Frontend`,skills:[`React`,`Flutter`,`HTML`,`CSS`,`Tailwind`]},{title:`Backend`,skills:[`.NET`,`REST APIs`,`GraphQL`,`Firebase`,`Supabase`,`Docker`,`AWS`,`Google Cloud`,`Azure`,`Vercel`,`Render`]},{title:`AI / ML`,skills:[`TensorFlow`,`PyTorch`,`Scikit-learn`,`OpenCV`],skills:[`YOLOv5`,`Object Detection`,`Person Detection Pipeline`,`Anomaly Detection`,`LangChain`,`OpenAI API`,`Anthropic API`,`Prompt Engineering`,`RAG`,`Scikit-learn`,`TensorFlow`,`NumPy`,`Matplotlib`]},{title:`Databases`,skills:[`MongoDB`,`PostgreSQL`,`SQL Server`,`Firestore`,`Realtime Database`,`Firebase Storage`,`Pinecone`,`ChromaDB`]},{title:`Tools`,skills:[`Visual Studio`,`Git`,`GitHub`,`GitLab`,`GitHub Actions`,`Linux`,`Android`,`IoT`,`Selenium`,`CI/CD`,`Agile`,`Scrum`,`MVC`,`MVVM`,`System Design`,`Object-Oriented Programming`,`Data Structures`,`API Security`,`Database Administration`,`QA`]}].map((e,t)=>(0,w.jsxs)(`div`,{className:`
               group
               relative
               overflow-hidden
@@ -154,7 +154,7 @@ Error generating stack: `+e.message+`
                       hover:text-black
                       hover:border-white
                       cursor-default
-                    `,children:e},e))})]})]},t))})]})}var Tu=[{title:`CoderV`,desc:`Developed a full-stack MERN application that enables visual learning of programming concepts through an interactive node-based interface for understanding code execution flow. Built personalized dashboards to track learning progress, quiz performance, solved problems, and activity streaks. Designed a responsive UI with modular learning sections, persistent navigation, and dark/light mode support. Implemented secure RESTful APIs using Node.js, Express.js, MongoDB, and JWT authentication with protected routes.`},{title:`Online Exam Monitoring Syste`,desc:`Developed an AI-powered online examination proctoring system using the MERN stack and YOLOv5 to monitor exams in real time. Implemented person, device, and anomaly detection to identify potential cheating activities, ensuring a secure and fair examination environment. Built a centralized platform for automated exam scheduling, candidate management, performance tracking, and detailed reporting. Designed a responsive user interface and integrated secure authentication for seamless access by both students and educators.`},{title:`Kids Learning App`,desc:`Developed an interactive e-learning application for children that promotes self-directed learning through engaging educational content and activities. Built the application using HTML, CSS, PHP, and SQL, creating a responsive and intuitive interface for seamless navigation. Integrated text-to-speech functionality with interactive animations to enhance accessibility and improve the learning experience through audio-visual engagement. Designed the platform to support independent learning, helping children grasp concepts without requiring constant guidance from a tutor.`},{title:`E-com `,desc:`Developed a full-stack e-commerce application for a shoe store using Flutter, Dart, Firebase, and SQL, delivering a seamless shopping experience across the platform. Designed and implemented database structures with real-time synchronization for product catalogs, user authentication, shopping carts, and order records. Integrated the Razorpay payment gateway to enable secure online payments, transaction verification, and efficient order processing. Built a comprehensive admin dashboard for managing products, inventory, and customer orders, while following software engineering best practices to ensure scalability, performance, and maintainability.`}];function Eu(){return(0,w.jsxs)(`section`,{id:`projects`,className:`max-w-6xl mx-auto px-6 py-2`,children:[(0,w.jsx)(`h2`,{className:`text-5xl font tracking-tight text-white mb-12`,children:`Projects`}),(0,w.jsx)(`div`,{className:`space-y-10`,children:Tu.map(e=>(0,w.jsxs)(`div`,{className:`
+                    `,children:e},e))})]})]},t))})]})}var Tu=[{title:`CoderV`,desc:`Developed a full-stack MERN application that enables visual learning of programming concepts through an interactive node-based interface for understanding code execution flow. Built personalized dashboards to track learning progress, quiz performance, solved problems, and activity streaks. Designed a responsive UI with modular learning sections, persistent navigation, and dark/light mode support. Implemented secure RESTful APIs using Node.js, Express.js, MongoDB, and JWT authentication with protected routes.`},{title:`Online Exam Monitoring System`,desc:`Developed an AI-powered online examination proctoring system using the MERN stack and YOLOv5 to monitor exams in real time. Implemented person, device, and anomaly detection to identify potential cheating activities, ensuring a secure and fair examination environment. Built a centralized platform for automated exam scheduling, candidate management, performance tracking, and detailed reporting. Designed a responsive user interface and integrated secure authentication for seamless access by both students and educators.`},{title:`Kids Learning App`,desc:`Developed an interactive e-learning application for children that promotes self-directed learning through engaging educational content and activities. Built the application using HTML, CSS, PHP, and SQL, creating a responsive and intuitive interface for seamless navigation. Integrated text-to-speech functionality with interactive animations to enhance accessibility and improve the learning experience through audio-visual engagement. Designed the platform to support independent learning, helping children grasp concepts without requiring constant guidance from a tutor.`},{title:`E-com `,desc:`Developed a full-stack e-commerce application for a shoe store using Flutter, Dart, Firebase, and SQL, delivering a seamless shopping experience across the platform. Designed and implemented database structures with real-time synchronization for product catalogs, user authentication, shopping carts, and order records. Integrated the Razorpay payment gateway to enable secure online payments, transaction verification, and efficient order processing. Built a comprehensive admin dashboard for managing products, inventory, and customer orders, while following software engineering best practices to ensure scalability, performance, and maintainability.`}];function Eu(){return(0,w.jsxs)(`section`,{id:`projects`,className:`max-w-6xl mx-auto px-6 py-2`,children:[(0,w.jsx)(`h2`,{className:`text-5xl font tracking-tight text-white mb-12`,children:`Projects`}),(0,w.jsx)(`div`,{className:`space-y-10`,children:Tu.map(e=>(0,w.jsxs)(`div`,{className:`
                 group
                 relative
                 overflow-hidden
@@ -191,33 +191,7 @@ Error generating stack: `+e.message+`
                         py-2
                         text-sm
                         text-gray-300
-                      `,children:e},e))}),(0,w.jsxs)(`div`,{className:`flex items-center justify-between mt-10`,children:[(0,w.jsxs)(`div`,{className:`flex gap-4`,children:[(0,w.jsx)(`button`,{className:`
-                        rounded-full
-                        bg-white
-                        text-black
-                        px-5
-                        py-2
-                        font-medium
-                        transition
-                        hover:scale-105
-                      `,children:`Live Demo`}),(0,w.jsx)(`button`,{className:`
-                        rounded-full
-                        border
-                        border-white/10
-                        px-5
-                        py-2
-                        text-white
-                        transition
-                        hover:bg-white
-                        hover:text-black
-                      `,children:`GitHub`})]}),(0,w.jsx)(`span`,{className:`
-                      text-4xl
-                      text-gray-500
-                      transition
-                      duration-300
-                      group-hover:translate-x-2
-                      group-hover:text-white
-                    `,children:`→`})]})]})]},e.title))})]})}function Du(){return(0,w.jsxs)(`section`,{className:`max-w-5xl mx-auto px-6 py-14`,children:[(0,w.jsx)(`h2`,{className:`
+                      `,children:e},e))})]})]},e.title))})]})}function Du(){return(0,w.jsxs)(`section`,{className:`max-w-5xl mx-auto px-6 py-14`,children:[(0,w.jsx)(`h2`,{className:`
           text-5xl
           font-semibold
           tracking-tight
@@ -230,7 +204,7 @@ Error generating stack: `+e.message+`
             bottom-0
             w-px
             bg-white/10
-          `}),(0,w.jsx)(`div`,{className:`space-y-20`,children:[{role:`Software Engineer`,company:`Company Name`,duration:`2025 - Present`,description:`Developed scalable full-stack applications and intelligent systems. Designed reliable backend architectures, optimized performance, and built user-focused interfaces.`},{role:`AI Engineer Intern`,company:`Company Name`,duration:`2024 - 2025`,description:`Built AI-powered solutions using machine learning and computer vision technologies. Worked on model development, data processing, and automation workflows.`},{role:`Application Developer`,company:`Company Name`,duration:`2023 - 2024`,description:`Created responsive applications with focus on clean architecture, usability, and efficient software development practices.`}].map((e,t)=>(0,w.jsxs)(`div`,{className:`
+          `}),(0,w.jsx)(`div`,{className:`space-y-20`,children:[{role:`Grader (TA)`,company:`State University of New York`,duration:`Jan 2026 - May 2026`,description:` Graded quizzes, programming assignments, exam and project for undergraduate Computer Science course, ensuring accuracy and consistency. Assisted the professor in maintaining grade records and updating scores in shared systems. Provided constructive feedback to student to help and improve their understanding of course material. Collaborated with teaching staff to ensure timely evaluation and smooth course operations`},{role:`Application Developer - Intern`,company:`Griphhy LLP`,duration:`Dec 2022 - June 2023`,description:`Developed an e-commerce web application for a shoe store using Flutter for the frontend and Dart for the backend. Implemented a real-time database to ensure consistent synchronization of product data user authentication details, cart states and purchase records throughout the app. Integrated secure online payment functionality by integrating Razorpay payment gateway, leveraging its API for payment processing order management and transaction verification. Developed a fully functional admin dashboard for managing products listing, orders, and inventory. Contributed to creating a user-friendly platform offering a wide range of shoes at competitive prices.`},{role:`Application Developer - Intern`,company:`Toshal Infotech`,duration:`May 2022 - Jun 2022`,description:`Learned Flutter framework and Dart Language for application development. Developed various small-scale projects utilizing Flutter to enhance my command on same. Acquired proficiency in Firebase Firestore and successfully integrated it into various projects.`}].map((e,t)=>(0,w.jsxs)(`div`,{className:`
                 relative
                 pl-12
                 group
@@ -264,8 +238,10 @@ Error generating stack: `+e.message+`
                         tracking-tight
                         text-white
                       `,children:e.role}),(0,w.jsx)(`p`,{className:`
+                      font-bold
                         mt-1
                         text-gray-500
+                        
                       `,children:e.company})]}),(0,w.jsx)(`span`,{className:`
                       text-sm
                       text-gray-600
@@ -275,22 +251,7 @@ Error generating stack: `+e.message+`
                     text-[16px]
                     leading-8
                     text-gray-400
-                  `,children:e.description})]})]},t))})]})]})}function Ou(){return(0,w.jsxs)(`section`,{className:`max-w-3xl mx-auto px-6 py-16 text-center`,children:[(0,w.jsx)(`h2`,{className:`
-          text-5xl
-          md:text-6xl
-          font-semibold
-          tracking-tight
-          text-white
-        `,children:`Let's Connect`}),(0,w.jsx)(`p`,{className:`
-          mt-5
-          text-lg
-          text-gray-400
-          leading-8
-        `,children:`Have a project idea or want to collaborate? Send me a message and I'll get back to you.`}),(0,w.jsxs)(`div`,{className:`
-          mt-12
-          space-y-6
-          text-left
-        `,children:[(0,w.jsx)(`input`,{type:`text`,placeholder:`Full Name`,className:`
+                  `,children:e.description})]})]},t))})]})]})}var Ou=class{constructor(e=0,t=`Network Error`){this.status=e,this.text=t}},ku={origin:`https://api.emailjs.com`,blockHeadless:!1,storageProvider:(()=>{if(!(typeof localStorage>`u`))return{get:e=>Promise.resolve(localStorage.getItem(e)),set:(e,t)=>Promise.resolve(localStorage.setItem(e,t)),remove:e=>Promise.resolve(localStorage.removeItem(e))}})()},Au=e=>e?typeof e==`string`?{publicKey:e}:e.toString()===`[object Object]`?e:{}:{},ju=(e,t=`https://api.emailjs.com`)=>{if(!e)return;let n=Au(e);ku.publicKey=n.publicKey,ku.blockHeadless=n.blockHeadless,ku.storageProvider=n.storageProvider,ku.blockList=n.blockList,ku.limitRate=n.limitRate,ku.origin=n.origin||t},Mu=async(e,t,n={})=>{let r=await fetch(ku.origin+e,{method:`POST`,headers:n,body:t}),i=await r.text(),a=new Ou(r.status,i);if(r.ok)return a;throw a},Nu=(e,t,n)=>{if(!e||typeof e!=`string`)throw`The public key is required. Visit https://dashboard.emailjs.com/admin/account`;if(!t||typeof t!=`string`)throw`The service ID is required. Visit https://dashboard.emailjs.com/admin`;if(!n||typeof n!=`string`)throw`The template ID is required. Visit https://dashboard.emailjs.com/admin/templates`},Pu=e=>{if(e&&e.toString()!==`[object Object]`)throw`The template params have to be the object. Visit https://www.emailjs.com/docs/sdk/send/`},Fu=e=>e.webdriver||!e.languages||e.languages.length===0,Iu=()=>new Ou(451,`Unavailable For Headless Browser`),Lu=(e,t)=>{if(!Array.isArray(e))throw`The BlockList list has to be an array`;if(typeof t!=`string`)throw`The BlockList watchVariable has to be a string`},Ru=e=>!e.list?.length||!e.watchVariable,zu=(e,t)=>e instanceof FormData?e.get(t):e[t],Bu=(e,t)=>{if(Ru(e))return!1;Lu(e.list,e.watchVariable);let n=zu(t,e.watchVariable);return typeof n==`string`?e.list.includes(n):!1},Vu=()=>new Ou(403,`Forbidden`),Hu=(e,t)=>{if(typeof e!=`number`||e<0)throw`The LimitRate throttle has to be a positive number`;if(t&&typeof t!=`string`)throw`The LimitRate ID has to be a non-empty string`},Uu=async(e,t,n)=>{let r=Number(await n.get(e)||0);return t-Date.now()+r},Wu=async(e,t,n)=>{if(!t.throttle||!n)return!1;Hu(t.throttle,t.id);let r=t.id||e;return await Uu(r,t.throttle,n)>0?!0:(await n.set(r,Date.now().toString()),!1)},Z=()=>new Ou(429,`Too Many Requests`),Gu=async(e,t,n,r)=>{let i=Au(r),a=i.publicKey||ku.publicKey,o=i.blockHeadless||ku.blockHeadless,s=i.storageProvider||ku.storageProvider,c={...ku.blockList,...i.blockList},l={...ku.limitRate,...i.limitRate};return o&&Fu(navigator)?Promise.reject(Iu()):(Nu(a,e,t),Pu(n),n&&Bu(c,n)?Promise.reject(Vu()):await Wu(location.pathname,l,s)?Promise.reject(Z()):Mu(`/api/v1.0/email/send`,JSON.stringify({lib_version:`4.4.1`,user_id:a,service_id:e,template_id:t,template_params:n}),{"Content-type":`application/json`}))},Ku=e=>{if(!e||e.nodeName!==`FORM`)throw`The 3rd parameter is expected to be the HTML form element or the style selector of the form`},qu=e=>typeof e==`string`?document.querySelector(e):e,Ju={init:ju,send:Gu,sendForm:async(e,t,n,r)=>{let i=Au(r),a=i.publicKey||ku.publicKey,o=i.blockHeadless||ku.blockHeadless,s=ku.storageProvider||i.storageProvider,c={...ku.blockList,...i.blockList},l={...ku.limitRate,...i.limitRate};if(o&&Fu(navigator))return Promise.reject(Iu());let u=qu(n);Nu(a,e,t),Ku(u);let d=new FormData(u);return Bu(c,d)?Promise.reject(Vu()):await Wu(location.pathname,l,s)?Promise.reject(Z()):(d.append(`lib_version`,`4.4.1`),d.append(`service_id`,e),d.append(`template_id`,t),d.append(`user_id`,a),Mu(`/api/v1.0/email/send-form`,d))},EmailJSResponseStatus:Ou};function Yu(){let[e,t]=(0,S.useState)({name:``,email:``,message:``}),[n,r]=(0,S.useState)(!1),i=e=>{t(t=>({...t,[e.target.name]:e.target.value}))};return(0,w.jsxs)(`section`,{id:`contact`,className:`max-w-3xl mx-auto px-6 py-20 text-center`,children:[(0,w.jsx)(`h2`,{className:`text-5xl md:text-6xl font-semibold tracking-tight text-white`,children:`Let's Connect`}),(0,w.jsxs)(`p`,{className:`mt-5 text-lg text-gray-400 leading-8`,children:[`Have a project idea or want to collaborate?`,(0,w.jsx)(`br`,{}),`Send me a message and I'll get back to you.`]}),(0,w.jsxs)(`form`,{onSubmit:async n=>{if(n.preventDefault(),!e.name||!e.email||!e.message){alert(`Please fill in all fields.`);return}r(!0);try{await Ju.send(`service_n6zdk7l`,`template_i3wo153`,{from_name:e.name,from_email:e.email,message:e.message},`UmJJjtLIzOoSOFIUE`),alert(`Message sent successfully!`),t({name:``,email:``,message:``})}catch(e){console.error(e),alert(`Failed to send message. Please try again.`)}finally{r(!1)}},className:`mt-12 space-y-6 text-left`,children:[(0,w.jsx)(`input`,{type:`text`,name:`name`,placeholder:`Full Name`,value:e.name,onChange:i,required:!0,className:`
             w-full
             rounded-2xl
             border
@@ -306,7 +267,7 @@ Error generating stack: `+e.message+`
             duration-300
             focus:border-white/40
             focus:bg-white/[0.05]
-          `}),(0,w.jsx)(`input`,{type:`email`,placeholder:`Email Address`,className:`
+          `}),(0,w.jsx)(`input`,{type:`email`,name:`email`,placeholder:`Email Address`,value:e.email,onChange:i,required:!0,className:`
             w-full
             rounded-2xl
             border
@@ -322,7 +283,7 @@ Error generating stack: `+e.message+`
             duration-300
             focus:border-white/40
             focus:bg-white/[0.05]
-          `}),(0,w.jsx)(`textarea`,{rows:`6`,placeholder:`Your Message`,className:`
+          `}),(0,w.jsx)(`textarea`,{rows:6,name:`message`,placeholder:`Your Message`,value:e.message,onChange:i,required:!0,className:`
             w-full
             rounded-2xl
             border
@@ -339,7 +300,7 @@ Error generating stack: `+e.message+`
             duration-300
             focus:border-white/40
             focus:bg-white/[0.05]
-          `}),(0,w.jsx)(`button`,{className:`
+          `}),(0,w.jsx)(`button`,{type:`submit`,disabled:n,className:`
             w-full
             rounded-full
             bg-white
@@ -350,7 +311,10 @@ Error generating stack: `+e.message+`
             duration-300
             hover:bg-gray-200
             hover:scale-[1.02]
-          `,children:`Send Message`})]})]})}function ku(){let[e,t]=(0,S.useState)(`hero`),n={about:(0,w.jsx)(Cu,{}),skills:(0,w.jsx)(wu,{}),projects:(0,w.jsx)(Eu,{}),experience:(0,w.jsx)(Du,{}),contact:(0,w.jsx)(Ou,{})};return(0,w.jsxs)(`div`,{className:`min-h-screen bg-black text-white`,children:[(0,w.jsx)(ee,{activePage:e,setActivePage:t}),(0,w.jsxs)(`div`,{className:`pt-24 px-6 flex flex-col items-center`,children:[e!==`hero`&&(0,w.jsx)(yu.div,{layout:!0,transition:{layout:{duration:.5,type:`spring`,stiffness:120,damping:20}},className:`
+            disabled:opacity-60
+            disabled:cursor-not-allowed
+            disabled:hover:scale-100
+          `,children:n?`Sending...`:`Send Message`})]})]})}function Xu(){let[e,t]=(0,S.useState)(`hero`),n={about:(0,w.jsx)(Cu,{}),skills:(0,w.jsx)(wu,{}),projects:(0,w.jsx)(Eu,{}),experience:(0,w.jsx)(Du,{}),contact:(0,w.jsx)(Yu,{})};return(0,w.jsxs)(`div`,{className:`min-h-screen bg-black text-white`,children:[(0,w.jsx)(ee,{activePage:e,setActivePage:t}),(0,w.jsxs)(`div`,{className:`pt-24 px-6 flex flex-col items-center`,children:[e!==`hero`&&(0,w.jsx)(yu.div,{layout:!0,transition:{layout:{duration:.5,type:`spring`,stiffness:120,damping:20}},className:`
           w-full
           max-w-6xl
           rounded-[30px]
@@ -371,4 +335,4 @@ Error generating stack: `+e.message+`
         border-white/10
         shadow-2xl
         p-8
-      `,children:e===`hero`?(0,w.jsx)(Su,{}):n[e]},e)})]})]})}function Au(){return(0,w.jsx)(ku,{})}C.createRoot(document.getElementById(`root`)).render((0,w.jsx)(S.StrictMode,{children:(0,w.jsx)(Au,{})}));
+      `,children:e===`hero`?(0,w.jsx)(Su,{}):n[e]},e)})]})]})}function Zu(){return(0,w.jsx)(Xu,{})}C.createRoot(document.getElementById(`root`)).render((0,w.jsx)(S.StrictMode,{children:(0,w.jsx)(Zu,{})}));
