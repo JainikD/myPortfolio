@@ -1,4 +1,6 @@
 import { motion } from "framer-motion";
+import profileImage from "../assets/profile.png";
+import resumePdf from "../assets/pdfs/Resume.pdf";
 
 function Hero({ compact = false }) {
 
@@ -48,7 +50,8 @@ function Hero({ compact = false }) {
 
     <motion.img
       layout
-      src="src/assets/profile.png"
+      // src="src/assets/profile.png"
+      src={profileImage}
       alt="Jainik Desai"
       className={`
         rounded-full
@@ -197,7 +200,8 @@ function Hero({ compact = false }) {
   <motion.button
     layout
     onClick={() =>
-      window.open("src/assets/pdfs/Resume.pdf")
+      // window.open("src/assets/pdfs/Resume.pdf")
+      window.open(resumePdf, "_blank")
     }
     className={`
       rounded-full

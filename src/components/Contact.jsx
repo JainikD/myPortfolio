@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+// import emailjs from "@emailjs/browser";
 
 // function Contact() {
 //   return (
@@ -415,57 +416,295 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 //   );
 // }
+
+
+
+
+// Running Code
+// function Contact() {
+
+//   return (
+
+//     <section className="max-w-3xl mx-auto px-6 py-16 text-center">
+
+
+//       {/* Heading */}
+
+//       <h2
+//         className="
+//           text-5xl
+//           md:text-6xl
+//           font-semibold
+//           tracking-tight
+//           text-white
+//         "
+//       >
+//         Let's Connect
+//       </h2>
+
+
+//       <p
+//         className="
+//           mt-5
+//           text-lg
+//           text-gray-400
+//           leading-8
+//         "
+//       >
+//         Have a project idea or want to collaborate?
+//         Send me a message and I'll get back to you.
+//       </p>
+
+
+//       {/* Form */}
+
+//       <div
+//         className="
+//           mt-12
+//           space-y-6
+//           text-left
+//         "
+//       >
+
+
+//         {/* Full Name */}
+
+//         <input
+//           type="text"
+//           placeholder="Full Name"
+//           className="
+//             w-full
+//             rounded-2xl
+//             border
+//             border-white/10
+//             bg-white/[0.03]
+//             backdrop-blur-xl
+//             px-6
+//             py-4
+//             text-white
+//             placeholder:text-gray-500
+//             outline-none
+//             transition-all
+//             duration-300
+//             focus:border-white/40
+//             focus:bg-white/[0.05]
+//           "
+//         />
+
+
+//         {/* Email */}
+
+//         <input
+//           type="email"
+//           placeholder="Email Address"
+//           className="
+//             w-full
+//             rounded-2xl
+//             border
+//             border-white/10
+//             bg-white/[0.03]
+//             backdrop-blur-xl
+//             px-6
+//             py-4
+//             text-white
+//             placeholder:text-gray-500
+//             outline-none
+//             transition-all
+//             duration-300
+//             focus:border-white/40
+//             focus:bg-white/[0.05]
+//           "
+//         />
+
+
+//         {/* Message */}
+
+//         <textarea
+//           rows="6"
+//           placeholder="Your Message"
+//           className="
+//             w-full
+//             rounded-2xl
+//             border
+//             border-white/10
+//             bg-white/[0.03]
+//             backdrop-blur-xl
+//             px-6
+//             py-4
+//             text-white
+//             placeholder:text-gray-500
+//             outline-none
+//             resize-none
+//             transition-all
+//             duration-300
+//             focus:border-white/40
+//             focus:bg-white/[0.05]
+//           "
+//         />
+
+//         {/* Button */}
+
+//         <button
+//           className="
+//             w-full
+//             rounded-full
+//             bg-white
+//             py-4
+//             text-black
+//             font-medium
+//             transition-all
+//             duration-300
+//             hover:bg-gray-200
+//             hover:scale-[1.02]
+//           "
+//         >
+//           Send Message
+//         </button>
+
+//       </div>
+
+//     </section>
+
+//   );
+
+// }
+
+// const [form, setForm] = useState({
+//   name: "",
+//   email: "",
+//   message: "",
+// });
+
+// const handleChange = (e) => {
+//   setForm({
+//     ...form,
+//     [e.target.name]: e.target.value,
+//   });
+// };
+
+// const sendEmail = async (e) => {
+//   e.preventDefault();
+
+//   try {
+//     await emailjs.send(
+//       "service_n6zdk7l",
+//       "template_i3wo153",
+//       {
+//         from_name: form.name,
+//         from_email: form.email,
+//         message: form.message,
+//       },
+//       "UmJJjtLIzOoSOFIUE"
+//     );
+
+//     alert("Message sent successfully!");
+
+//     setForm({
+//       name: "",
+//       email: "",
+//       message: "",
+//     });
+//   } catch (error) {
+//     console.error(error);
+//     alert("Failed to send message.");
+//   }
+// };
+
+
+// // export default Contact;
+
+// // export default Contact;
+
+// export default Contact;
+
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
+
 function Contact() {
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    message: "",
+  });
+
+  const [loading, setLoading] = useState(false);
+
+  const handleChange = (e) => {
+    setForm((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+  };
+
+  const sendEmail = async (e) => {
+    e.preventDefault();
+
+    if (!form.name || !form.email || !form.message) {
+      alert("Please fill in all fields.");
+      return;
+    }
+
+    setLoading(true);
+
+    try {
+      await emailjs.send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+          from_name: form.name,
+          from_email: form.email,
+          message: form.message,
+        },
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      );
+
+      alert("Message sent successfully!");
+
+      setForm({
+        name: "",
+        email: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error(error);
+      alert("Failed to send message. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  };
 
   return (
-
-    <section className="max-w-3xl mx-auto px-6 py-16 text-center">
-
-
+    <section
+      id="contact"
+      className="max-w-3xl mx-auto px-6 py-20 text-center"
+    >
       {/* Heading */}
 
-      <h2
-        className="
-          text-5xl
-          md:text-6xl
-          font-semibold
-          tracking-tight
-          text-white
-        "
-      >
+      <h2 className="text-5xl md:text-6xl font-semibold tracking-tight text-white">
         Let's Connect
       </h2>
 
-
-      <p
-        className="
-          mt-5
-          text-lg
-          text-gray-400
-          leading-8
-        "
-      >
+      <p className="mt-5 text-lg text-gray-400 leading-8">
         Have a project idea or want to collaborate?
+        <br />
         Send me a message and I'll get back to you.
       </p>
 
+      {/* Contact Form */}
 
-      {/* Form */}
-
-      <div
-        className="
-          mt-12
-          space-y-6
-          text-left
-        "
+      <form
+        onSubmit={sendEmail}
+        className="mt-12 space-y-6 text-left"
       >
-
-
-        {/* Full Name */}
+        {/* Name */}
 
         <input
           type="text"
+          name="name"
           placeholder="Full Name"
+          value={form.name}
+          onChange={handleChange}
+          required
           className="
             w-full
             rounded-2xl
@@ -484,13 +723,16 @@ function Contact() {
             focus:bg-white/[0.05]
           "
         />
-
 
         {/* Email */}
 
         <input
           type="email"
+          name="email"
           placeholder="Email Address"
+          value={form.email}
+          onChange={handleChange}
+          required
           className="
             w-full
             rounded-2xl
@@ -510,12 +752,15 @@ function Contact() {
           "
         />
 
-
         {/* Message */}
 
         <textarea
-          rows="6"
+          rows={6}
+          name="message"
           placeholder="Your Message"
+          value={form.message}
+          onChange={handleChange}
+          required
           className="
             w-full
             rounded-2xl
@@ -536,9 +781,11 @@ function Contact() {
           "
         />
 
-        {/* Button */}
+        {/* Submit Button */}
 
         <button
+          type="submit"
+          disabled={loading}
           className="
             w-full
             rounded-full
@@ -550,22 +797,16 @@ function Contact() {
             duration-300
             hover:bg-gray-200
             hover:scale-[1.02]
+            disabled:opacity-60
+            disabled:cursor-not-allowed
+            disabled:hover:scale-100
           "
         >
-          Send Message
+          {loading ? "Sending..." : "Send Message"}
         </button>
-
-      </div>
-
+      </form>
     </section>
-
   );
-
 }
-
-
-// export default Contact;
-
-// export default Contact;
 
 export default Contact;

@@ -4,7 +4,7 @@ const projects = [
       desc: "Developed a full-stack MERN application that enables visual learning of programming concepts through an interactive node-based interface for understanding code execution flow. Built personalized dashboards to track learning progress, quiz performance, solved problems, and activity streaks. Designed a responsive UI with modular learning sections, persistent navigation, and dark/light mode support. Implemented secure RESTful APIs using Node.js, Express.js, MongoDB, and JWT authentication with protected routes."
     },
     {
-      title: "Online Exam Monitoring Syste",
+      title: "Online Exam Monitoring System",
       desc: "Developed an AI-powered online examination proctoring system using the MERN stack and YOLOv5 to monitor exams in real time. Implemented person, device, and anomaly detection to identify potential cheating activities, ensuring a secure and fair examination environment. Built a centralized platform for automated exam scheduling, candidate management, performance tracking, and detailed reporting. Designed a responsive user interface and integrated secure authentication for seamless access by both students and educators."
     },
     {
@@ -109,7 +109,7 @@ const projects = [
                 </div>
   
                 {/* Bottom */}
-                <div className="flex items-center justify-between mt-10">
+                {/* <div className="flex items-center justify-between mt-10">
   
                   <div className="flex gap-4">
   
@@ -159,7 +159,7 @@ const projects = [
                     →
                   </span>
   
-                </div>
+                </div> */}
   
               </div>
   

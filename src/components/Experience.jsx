@@ -229,25 +229,29 @@ function Experience() {
 
   const experiences = [
     {
-      role: "Software Engineer",
-      company: "Company Name",
-      duration: "2025 - Present",
+      role: "Grader (TA)",
+      company: "State University of New York",
+      duration: "Jan 2026 - May 2026",
       description:
-        "Developed scalable full-stack applications and intelligent systems. Designed reliable backend architectures, optimized performance, and built user-focused interfaces."
+      " Graded quizzes, programming assignments, exam and project for undergraduate Computer Science course, ensuring accuracy and consistency. Assisted the professor in maintaining grade records and updating scores in shared systems. Provided constructive feedback to student to help and improve their understanding of course material. Collaborated with teaching staff to ensure timely evaluation and smooth course operations"
+
+      
+        // "Developed scalable full-stack applications and intelligent systems. Designed reliable backend architectures, optimized performance, and built user-focused interfaces."
     },
     {
-      role: "AI Engineer Intern",
-      company: "Company Name",
-      duration: "2024 - 2025",
+      role: "Application Developer - Intern",
+      company: "Griphhy LLP",
+      duration: "Dec 2022 - June 2023",
       description:
-        "Built AI-powered solutions using machine learning and computer vision technologies. Worked on model development, data processing, and automation workflows."
+      "Developed an e-commerce web application for a shoe store using Flutter for the frontend and Dart for the backend. Implemented a real-time database to ensure consistent synchronization of product data user authentication details, cart states and purchase records throughout the app. Integrated secure online payment functionality by integrating Razorpay payment gateway, leveraging its API for payment processing order management and transaction verification. Developed a fully functional admin dashboard for managing products listing, orders, and inventory. Contributed to creating a user-friendly platform offering a wide range of shoes at competitive prices."
+        // "Built AI-powered solutions using machine learning and computer vision technologies. Worked on model development, data processing, and automation workflows."
     },
     {
-      role: "Application Developer",
-      company: "Company Name",
-      duration: "2023 - 2024",
+      role: "Application Developer - Intern",
+      company: "Toshal Infotech",
+      duration: "May 2022 - Jun 2022",
       description:
-        "Created responsive applications with focus on clean architecture, usability, and efficient software development practices."
+        "Learned Flutter framework and Dart Language for application development. Developed various small-scale projects utilizing Flutter to enhance my command on same. Acquired proficiency in Firebase Firestore and successfully integrated it into various projects."
     }
   ];
 
@@ -361,8 +365,10 @@ function Experience() {
 
                     <p
                       className="
+                      font-bold
                         mt-1
                         text-gray-500
+                        
                       "
                     >
                       {exp.company}
